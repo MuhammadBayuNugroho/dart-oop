@@ -1,0 +1,27 @@
+- Encapsulation adalah salah satu prinsip dasar dalam pemrograman berorientasi objek (OOP)
+  yang menggabungkan data dan metode yang beroperasi pada data ke dalam sebuah unit tunggal, 
+  yang disebut class. Dengan menggunakan encapsulation, kita dapat menyembunyikan rincian 
+  implementasi internal suatu objek dan hanya mengekspos fungsionalitas yang diperlukan.
+
+
+- Bagaimana menerapkan encapsulation dalam OOP di dart?
+  Cara mudahnya adalah dengan melakukan hal berikut:
+
+  1. Menjadikan property di dalam class menjadi private dengan menambahkan underscore (_)
+  2. Membuat method setter dan getter untuk mengakses dan mengupdate property private tersebut
+  
+  
+- Pada materi membuat object pada class OOP di dart sebelumnya, anda membuat property secara public, 
+  sehingga class / object eksternal lain bisa dengan leluasa langsung mengganti property dari object tersebut.
+  Ini akan menjadi resiko tersendiri.
+
+
+- Sehingga didapatkan tujuan dari encapsulation yaitu:
+  1. Penyembunyian Data: Encapsulation menyembunyikan data dari dunia luar. Ini mencegah data diakses 
+     oleh kode di luar class. Ini dikenal sebagai penyembunyian data.
+  2. Mudah di-testing: Encapsulation memungkinkan Anda menguji class secara terisolasi. Ini akan 
+     memungkinkan Anda menguji kelas tanpa menguji kode di luar kelas.
+  3. Fleksibilitas: Encapsulation memungkinkan Anda mengubah implementasi class tanpa mempengaruhi 
+     kode di luar kelas.
+  4. Keamanan: Encapsulation memungkinkan Anda membatasi akses ke anggota class. Ini akan memungkinkan Anda 
+     membatasi akses ke anggota class dari kode di luar library.
