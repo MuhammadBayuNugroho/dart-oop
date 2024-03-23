@@ -1,0 +1,11 @@
+Inheritance atau pewarisan adalah konsep dalam pemrograman berorientasi objek (OOP) 
+di mana sebuah class dapat mewarisi properti dan metode dari class lain. Class yang 
+mewarisi disebut subclass atau child class, sedangkan class yang memberikan warisan 
+disebut superclass atau parent class. Menggunakan keyword extends untuk menerima 
+warisan dari parent class.
+
+- Tujuan inheritance:
+  1. Penggunaan Kembali Kode (Code Reusability): Menghindari duplikasi kode dengan
+     menggunakan properti dan metode yang sudah ada.
+  2. Struktur Hirarki: Membentuk struktur hierarki antara class.
+
