@@ -1,0 +1,37 @@
+Poly berarti banyak dan morph berarti bentuk. Polimorfisme adalah kemampuan suatu 
+     objek untuk mengambil banyak bentuk. Sebagai manusia, kita memiliki kemampuan 
+     untuk mengambil banyak bentuk. Kita bisa menjadi seorang siswa, seorang guru, 
+     seorang orang tua, seorang teman, dan sebagainya. Demikian pula, dalam 
+     pemrograman berorientasi objek, polimorfisme adalah kemampuan suatu objek 
+     untuk mengambil banyak bentuk.
+
+Dalam dunia nyata, polimorfisme adalah memperbarui atau memodifikasi fitur, fungsi, 
+     atau implementasi yang sudah ada dalam class induk.
+
+
+
++ Polymorphism dengan method overriding +
+-----------------------------------------
+- Method overriding adalah teknik di mana Anda dapat membuat sebuah method dalam 
+  class anak yang memiliki nama yang sama dengan method dalam class induk. Method 
+  dalam class anak menggantikan method dalam class induk.
+
+- Sintaks
+    class ParentClass{
+        void functionName(){
+            //isi function di parent
+        }
+    }
+
+    class ChildClass extends ParentClass{
+        @override
+        void functionName(){
+            //isi function di child yang berbeda dari parent
+        }
+    }
+
+- Tujuan Polymorphism:
+  1. Fleksibilitas: Objek dapat mengambil banyak bentuk sesuai dengan kebutuhan.
+  2. Pemeliharaan Kode: Mempermudah perubahan pada tingkat kelas induk tanpa 
+                        mempengaruhi kelas anak.
+  3. Keterbacaan Kode: Menyederhanakan kode dan membuatnya lebih mudah dimengerti.
