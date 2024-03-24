@@ -1,0 +1,29 @@
+- Abstract adalah salah satu prinsip dalam Pemrograman Berorientasi
+  Objek (OOP) yang memungkinkan kita untuk menyembunyikan detail 
+  implementasi dan hanya mengekspos fungsionalitas penting dari 
+  suatu object.
+
+- Class abstract adalah class yang tidak dapat diinisialisasi. 
+  Biasanya digunakan untuk mendefinisikan perilaku suatu class 
+  yang dapat diwariskan ke class lain. Class abstract dideklarasikan
+  menggunakan kata kunci abstract.
+
+- Method abstract adalah method yang dideklarasikan dalam class 
+  abstrak tanpa memberikan implementasi.Subclass dari class 
+  abstract harus mengimplementasikan semua method abstract yang 
+  dideklarasikan oleh class induk.
+
+- Sintaks:
+  abstract class Classname{
+    // Body of abstract class
+    method1();
+    method2();
+  }
+
+- Tujuan Abstract:
+  1. Rancangan Terstruktur: Abstraksi memungkinkan perancangan yang
+     terstruktur dan pemisahan antara antarmuka dan implementasi.
+  2. Fleksibilitas: Memungkinkan penambahan fungsionalitas pada 
+     masa mendatang tanpa mempengaruhi kelas-kelas yang sudah ada.
+  3. Pemeliharaan Kode: Mempermudah pemeliharaan dan perubahan 
+     dengan mengisolasi detail implementasi.
